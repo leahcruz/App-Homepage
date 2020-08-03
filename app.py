@@ -47,7 +47,8 @@ def map():
 # Location result
 @app.route('/map-result')
 def map2():
-    return render_template("map-result.html")
+    time = datetime.now()
+    return render_template("map-result.html", time = time)
 
 @app.route('/profile')
 def profile():

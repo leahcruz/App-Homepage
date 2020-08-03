@@ -3,6 +3,7 @@
 
 <head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link href="/static/css/map-result.css?q={{time}}" rel="stylesheet">
 </head>
 
 <body>
@@ -36,12 +37,18 @@
   </div>
 </nav>
 
-
-<div class="container">
-    <div class="row">
-        <div class="col-10">
-            <img src="https://i.imgur.com/ftBexsP.jpg" class="img-fluid" alt="Responsive image">
+<header>
+    <div class="container text-center" class="header">
+        <div id=heading>
+            <h1> <br> </br>Map Results</h1>
+            <p class="lead">Find your map results here <br> </br> <br> </br></p>
         </div>
+    </div>
+</header>
+
+
+
+    <div class="row">
         <div class="col">
             <div class="card" style="width: 18rem;">
                 <div class="card-body">
@@ -51,8 +58,30 @@
                     <a href="https://www.google.com/maps/search/Animal+Shelters+Near+Brooklyn,+NY+11226/@40.6450451,-73.9870843,13z/data=!3m1!4b1" class="card-link">Link to Google Maps</a>
                 </div>
             </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form class="inline">
+                        <a type="button" href= "/map" class="btn btn-primary btn-lg btn-block">Return to Address Input</a>
+                    </form>
+                 </div>
+            </div>
         </div>
+
+        </div>
+
+        <div class="container">
+        <div class="col-14">
+            <img src="https://i.imgur.com/ftBexsP.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+        </div>
+
+
+        
     </div>
+
+<!-- <div class="container">
     <div class="row">
         <div class="col">
             <form action="/map" class="inline">
@@ -60,7 +89,7 @@
             </form>
         </div>
     </div>
-</div>
+</div> -->
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
