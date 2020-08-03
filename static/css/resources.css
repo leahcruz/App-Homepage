@@ -1,0 +1,30 @@
+.search {
+  float: left;
+}
+
+header{
+    background-image: url("https://www.sciencenews.org/wp-content/uploads/2019/02/022119_EC_expanding-universe_feat.jpg");
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 20px;
+    background-color: salmon;
+}
+
+#heading {
+    color: white;
+}
+
+#article {
+    margin-top: 30px;
+     font-family: "Times New Roman", Times, serif;
+}
+
+#videos {
+    margin-top: 30px;
+     font-family: "Times New Roman", Times, serif;
+}
+
+.card {
+    margin-top: 30px;
+     font-family: "Times New Roman", Times, serif;
+}
+

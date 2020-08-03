@@ -1,0 +1,54 @@
+#supernova{
+    font-size: 40px;
+}
+header{
+    background-image: url("https://i.imgur.com/t4tVGXC.jpg");
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+
+
+
+#heading {
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: white;
+    
+}
+
+#article {
+    margin-top: 30px;
+}
+
+.card {
+    margin-top: 30px;
+}
+
+
+#mainNav{
+    background-image: url("https://i.imgur.com/t4tVGXC.jpg");
+    font-family: "Times New Roman", Times, serif;
+}
+
+footer {
+    background-image: url("https://www.sciencenews.org/wp-content/uploads/2019/02/022119_EC_expanding-universe_feat.jpg");
+    font-family: "Times New Roman", Times, serif;
+}
+
+#headtitles {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+section {
+    font-family: "Times New Roman", Times, serif;
+}
+
+footer {
+    font-family: "Times New Roman", Times, serif;
+}
