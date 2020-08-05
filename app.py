@@ -24,7 +24,8 @@ def index():
 
 @app.route('/home2')
 def home():
-    return render_template("home2.html")
+    time = datetime.now()
+    return render_template("home2.html", time = time)
 
 
 @app.route('/resources')
@@ -54,6 +55,12 @@ def map2():
 def profile():
     time = datetime.now()
     return render_template("profile.html", time = time)
+
+@app.route('/signed-up')
+def signed():
+    time = datetime.now()
+    return render_template("account.html", time = time)
+
 
 @app.route('/login')
 def login():
