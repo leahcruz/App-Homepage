@@ -15,6 +15,13 @@ header{
     font-family: "Times New Roman", Times, serif;
 }
 
+#stitle {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "Times New Roman", Times, serif;
+    color:goldenrod;
+}
+
 #discussion1 {
 
     margin-bottom: 30px;

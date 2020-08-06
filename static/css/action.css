@@ -9,8 +9,18 @@ header{
     color: white;
 }
 
+#premium {
+    margin-top: 40px;
+     margin-left: 8px;
+}
+
+#schoolb{
+    background-color:goldenrod;
+    border-color: goldenrod;
+}
+
 #topline {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .card {

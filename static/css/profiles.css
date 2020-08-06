@@ -15,12 +15,28 @@ header{
 
 #name {
     margin-top: 80px;
-    color: gray;
+    color: MidnightBlue;
     margin-bottom: 20px;
+}
+
+#schoolb{
+    background-color:goldenrod;
+    border-color: goldenrod;
+    color:white;
 }
 
 #bio1 {
     color: slategrey;
+}
+
+#name3 {
+    margin-top: 60px;
+    color: GoldenRod;
+    margin-bottom: 20px;
+}
+
+#assignments{
+    margin-top: 35px;
 }
 
 #bio2 {
@@ -29,7 +45,21 @@ header{
 }
 
 #post1 {
-    margin-top: 40px;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+#name2 {
+    margin-top: 80px;
+    color: gray;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+#button2{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 footer {
